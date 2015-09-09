@@ -12,7 +12,7 @@ public class nav : MonoBehaviour {
 	public Collider player;
 	RaycastHit hit;
 	Animator anim;
-		public GUISkin skin;
+	public GUISkin skin;
 	public ThirdPersonCharacter character { get; private set; }
 	// Use this for initialization
 	void Start () {
